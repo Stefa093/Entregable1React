@@ -1,19 +1,18 @@
 import React from 'react'
 
-const Button = ({getRandomAll}) => {
+const Button = ({randomColor, getRandomAll}) => {
 
-
-    const backgroundObj = {
-        backgroundColor: randomColor
-    }
+  const backgroundObj = {
+    backgroundColor: randomColor
+}
 
   return (
-        <button 
-            style={backgroundObj} 
-            className= "card__btn"
+      <button
+            className= "card__btn" 
+            style={backgroundObj}
             onClick={getRandomAll}
             >&#62;
-        </button>
+      </button>    
   )
 }
 

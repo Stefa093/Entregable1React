@@ -31,8 +31,7 @@ function App() {
       <QuoteBox 
       randomQuote={randomQuote} 
       randomColor={randomColor}
-      getRandomAll={getRandomAll}
-      />
+      getRandomAll={getRandomAll}/>
     </div>
   )
 }
